@@ -1,0 +1,13 @@
+AGENT: Agent Management API
+
+
+
+GET /agents: Returns the list of all agents. Can be filtered and paginated
+
+POST /agents: Creates a new agent and sends welcome email
+
+GET /agents/{id}: Gets agent by id
+
+PATCH /agents/{id}: Updates agent name and email
+
+DELETE /agents/{id}: Deletes agent by id

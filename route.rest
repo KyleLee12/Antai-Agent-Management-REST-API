@@ -1,0 +1,35 @@
+GET http://localhost:3000/agents?page=2&limit=3
+
+###
+
+GET http://localhost:3000/agents
+
+###
+
+GET http://localhost:3000/agents?username=New
+
+###
+GET http://localhost:3000/agents/60db96ece24ed141461843f2
+
+###
+
+POST http://localhost:3000/agents
+Content-Type: application/json
+
+{
+    "username": "hey",
+    "email": "kylel00012@gmail.com"
+}
+
+###
+
+DELETE http://localhost:3000/agents/60db96ece24ed141461843f2
+
+### 
+
+PATCH http://localhost:3000/agents/60db95cd02e88740bab38d62
+Content-Type: application/json
+
+{
+    "username": "New"
+}
